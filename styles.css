@@ -1,0 +1,27 @@
+/*I like this color palette:
+background: #E5DADA
+Accents - Prussian Blue, #002642; Claret, #840032; Gamboge, E49B0F; Viridian, #498467;
+
+Other shades: another Gamboge, #F49F0A; Jonquil, efca08; Cerulean, 077187; Cerise, #DA4167; Cadet Gray, #9DA3A4; Parchment, #F4ECD6; these last three good for the pencil
+
+    font-family: 'PT Sans Narrow', sans-serif;
+    font-family: 'Roboto', sans-serif;
+*/
+body{
+    background-color: #E5DADA;
+    font-family: 'Libre Baskerville', serif;
+}
+.mainBanner{
+    display: block;
+    width: 100%;
+    position: relative;
+}
+.banner{
+    max-width: 45%;
+}
+.navBar{
+    position: sticky;
+    background-color: #DA4167;
+    font-weight: bold;
+    border: 2px;
+}
