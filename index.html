@@ -11,18 +11,36 @@
     <title>Practically Planned</title>
 </head>
 <body>
-    <div id="mainBanner">
-       <img class="banner" src="Images/1.jpg" alt="Practically Planned">
-       <img class="banner" src="Images/2.jpg" alt="pencil point">
+    <div class="mainBanner" id="mainBanner">
+       <div class="banner" id="banner"><img src="Images/Pencil.jpg" alt="Practically Planned"></div>
     </div>
-    <div class="navBar">
-        <a id="Home">Home</a>
-        <a id="About">About</a>
-        <a id="Lessons">Lessons</a>
-        <a id="Units">Units</a>
-        <a id="Contact">Contact Us</a>
+    <div class="navBar" id="navBar">
+        <a href="#index">Home</a>
+        <div class="dropdown">
+            <button class="dropdownbtn">
+                <a href="#lessons">Lessons</a>
+            </button>
+            <div class="dropdown-content">
+                <a href="#">Standalone 1</a>
+                <a href="#">Standalone 2</a>
+                <a href="#">Standalone 3</a>
+            </div>
+        </div>
+        <div class="dropdown">
+            <button class="dropdownbtn">
+                <a href="#units">Units</a>
+            </button>
+            <div class="dropdown-content">
+                <a href="#">Unit 1</a>
+                <a href="#">Unit 2</a>
+                <a href="#">Unit 3</a>
+            </div>
+        </div>
+        <a href="#about">About</a>
+        <a href="#contact">Contact Us</a>
     </div>
-    <div id="bodyText">
+    </div>
+    <div class="bodyText" id="bodyText">
         <p>
            Teaching is hard work. It's tricky to know where to start, particularly if you are just starting out. Fortunately, we are here to help! Our teachers have contributed their own tested lessons and units to help you have a successful year in the classroom. 
         </p>

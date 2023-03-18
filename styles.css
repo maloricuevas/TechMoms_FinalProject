@@ -1,27 +1,89 @@
-/*I like this color palette:
+/*
+I like this color palette:
 background: #E5DADA
 Accents - Prussian Blue, #002642; Claret, #840032; Gamboge, E49B0F; Viridian, #498467;
 
 Other shades: another Gamboge, #F49F0A; Jonquil, efca08; Cerulean, 077187; Cerise, #DA4167; Cadet Gray, #9DA3A4; Parchment, #F4ECD6; these last three good for the pencil
-
-    font-family: 'PT Sans Narrow', sans-serif;
-    font-family: 'Roboto', sans-serif;
 */
-body{
+
+body {
     background-color: #E5DADA;
-    font-family: 'Libre Baskerville', serif;
+    /*font-family: 'Libre Baskerville', serif;*/
+    font-family: 'PT Sans Narrow', sans-serif;
+    /*font-family: 'Roboto', sans-serif;*/
 }
-.mainBanner{
+
+.mainBanner {
     display: block;
     width: 100%;
     position: relative;
 }
-.banner{
-    max-width: 45%;
+
+.banner {
+    max-height: 250px;
 }
-.navBar{
-    position: sticky;
+
+.banner img {
+    max-width: 100%;
+}
+
+.navBar {
+    overflow: hidden;
+    background-color: #498467;
+    font-family:'Libre Baskerville', serif;
+}
+
+.navBar a {
+    float:left;
+    font-size: 24px;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.dropdown {
+    float: left;
+    overflow: hidden;
+    background-color: #498467;
+}
+
+.dropdownbtn {
+    font-size: 16px;
+    border: none;
+    outline: none;
+    padding: 14px 16px;
+    background-color: inherit;
+    font-family: inherit;
+    margin: 0;
+}
+
+.navBar a:hover, .dropdown:hover .dropdownbtn {
     background-color: #DA4167;
-    font-weight: bold;
-    border: 2px;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color:#498467;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0);
+    z-index: 1;
+}
+
+.dropdown-content a {
+    float: none;
+    color: white;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+}
+
+.dropdown-content a:hover {
+    background-color: #9DA3A4;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
 }
