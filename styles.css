@@ -34,7 +34,6 @@ body {
 nav {
     font-family: 'Libre Baskerville', serif;
     text-align: center;
-    overflow: hidden;
 }
 
 ul {
@@ -72,6 +71,10 @@ li:hover {
 
 .sticky + .bodyText{
     padding-top: 60px;
+}
+
+#navbar {
+    overflow: hidden;
 }
 
 .bodyText{
