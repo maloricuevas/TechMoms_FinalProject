@@ -9,9 +9,9 @@ Other shades: another Gamboge, #F49F0A; Jonquil, efca08; Cerulean, 077187; Ceris
 body {
     background-color: #E5DADA;
     /*font-family: 'Libre Baskerville', serif;*/
-    font-family: 'PT Sans Narrow', sans-serif;
-    /*font-family: 'Roboto', sans-serif;*/
-    font-size: 20px;
+    /*font-family: 'PT Sans Narrow', sans-serif;*/
+    font-family: 'Roboto', sans-serif;
+    font-size: 24px;
     padding: 2rem;
 }
 
@@ -19,6 +19,8 @@ body {
     display: block;
     width: 100%;
     position: relative;
+    padding: 5px; 
+    overflow: hidden;
 }
 
 .banner {
@@ -31,6 +33,8 @@ body {
 
 nav {
     font-family: 'Libre Baskerville', serif;
+    text-align: center;
+    overflow: hidden;
 }
 
 ul {
@@ -60,26 +64,17 @@ li:hover {
     cursor: pointer;
 }
 
-ul li ul {
-    background: #498467;
-    visibility: hidden;
-    opacity: 0;
-    min-width: 5rem;
-    position: absolute;
-    transition: all 0.5s ease;
-    margin-top: 1rem;
-    left: 0;
-    display: none;
-}
-
-ul li:hover > ul,
-ul li ul:hover {
-    visibility: visible;
-    opacity: 1;
-    display: block;
-}
-
-ul li ul li {
-    clear: both;
+.sticky {
+    position: fixed;
+    top: 0;
     width: 100%;
+}
+
+.sticky + .bodyText{
+    padding-top: 60px;
+}
+
+.bodyText{
+    font-size: 20px;
+    padding: 16px;
 }
