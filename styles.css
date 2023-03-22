@@ -11,8 +11,13 @@ body {
     /*font-family: 'Libre Baskerville', serif;*/
     /*font-family: 'PT Sans Narrow', sans-serif;*/
     font-family: 'Roboto', sans-serif;
-    font-size: 24px;
+    font-size: 1.5rem;
     padding: 2rem;
+}
+
+h1{
+    font-family: 'Libre Baskerville', serif;
+    font-size: 36px;
 }
 
 .mainBanner {
@@ -77,7 +82,24 @@ li:hover {
     overflow: hidden;
 }
 
-.bodyText{
-    font-size: 20px;
-    padding: 16px;
+.bodyText {
+    font-size: 24px;
+    padding: 1rem;
+}
+
+.Preview {
+    box-sizing: border-box;
+    border: #498467 solid 3px;
+    background-color: #F4ECD6;
+    padding: 6px;
+    margin: 1rem;
+}
+
+.previewImg{
+    float: left;
+    text-align: center;
+    margin: 4rem;
+    max-height: fit-content;
+    box-sizing: border-box;
+    border: #9DA3A4 solid 2px;
 }
