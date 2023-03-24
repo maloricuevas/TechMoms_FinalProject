@@ -103,3 +103,9 @@ li:hover {
     box-sizing: border-box;
     border: #9DA3A4 solid 2px;
 }
+
+.link {
+    color: #DA4167;
+    text-decoration: underline;
+    cursor: pointer;
+}
