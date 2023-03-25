@@ -109,3 +109,40 @@ li:hover {
     text-decoration: underline;
     cursor: pointer;
 }
+
+.textbox{
+    height: 100px;
+    width: 75%;
+    display: block;
+}
+
+.name {
+    width: 40%;
+}
+
+.email {
+    width: 40%;
+}
+
+select{
+    font-size: 18px;
+}
+
+option {
+    font-size: 18px;
+}
+
+.submit{
+    background: #498467;
+    color: #F4ECD6;
+    display: block;
+    font-family: 'Libre Baskerville', serif;
+    font-size: 20px;
+    height: 50px;
+    width: 150px;
+    border: #F4ECD6;
+}
+
+.submit:hover{
+    background-color: #DA4167;
+}

@@ -28,7 +28,7 @@ document.addEventListener("submit", function (event) {
         alert("You must select your response type before submitting this form.");
     }
     else {
-        alert("Thank you for your question! We will contact you with a response shortly.");
+        alert("Thank you for your contact! We will contact you with a response shortly.");
     }
 
 })
